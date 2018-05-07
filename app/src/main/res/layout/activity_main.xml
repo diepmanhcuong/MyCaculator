@@ -15,17 +15,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_span="4"
-            android:layoutDirection="rtl"
             android:text="0"
+            android:id="@+id/txresult"
+            android:maxLines="2"
+            android:maxLength="17"
             android:background="#616161"
             android:textColor="#fff"
-            android:textSize="80sp"
+            android:textSize="60sp"
             android:textStyle="bold" />
     </TableRow>
 
     <TableRow>
 
         <Button
+            android:onClick="onClickClear"
+            android:id="@+id/clear"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -35,15 +39,17 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickDoi"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+/-"
+            android:text="+/_"
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickOperator"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -53,6 +59,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickOperator"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#F57F17"
@@ -65,6 +72,7 @@
     <TableRow>
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -74,6 +82,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -83,6 +92,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -92,6 +102,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickOperator"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#F57F17"
@@ -104,6 +115,7 @@
     <TableRow>
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -113,6 +125,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -122,6 +135,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -131,6 +145,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickOperator"
             android:padding="20dp"
             android:background="#F57F17"
             android:layout_margin="1dp"
@@ -143,6 +158,7 @@
     <TableRow>
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:background="#E0E0E0"
             android:layout_margin="1dp"
@@ -152,6 +168,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -161,6 +178,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -170,6 +188,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickOperator"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#F57F17"
@@ -182,16 +201,18 @@
     <TableRow>
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_span="2"
-            android:text="@string/c"
+            android:text="0"
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickNumber"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#E0E0E0"
@@ -201,6 +222,7 @@
             android:textSize="@dimen/size30sp" />
 
         <Button
+            android:onClick="onClickEquals"
             android:padding="20dp"
             android:layout_margin="1dp"
             android:background="#F57F17"
